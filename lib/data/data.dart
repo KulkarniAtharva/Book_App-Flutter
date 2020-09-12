@@ -29,8 +29,8 @@ List<BookModel> getBooks()
   return books;
 }
 
-List<SingleBookModel> getSingleBooks(){
-
+List<SingleBookModel> getSingleBooks()
+{
   List<SingleBookModel> books = new List<SingleBookModel>();
   SingleBookModel singleBookModel = new SingleBookModel();
 

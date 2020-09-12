@@ -18,7 +18,7 @@ class BookDetails extends StatelessWidget
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Text("The Little memaid", style: TextStyle(
+                      Text("The Little mermaid", style: TextStyle(
                           color: Colors.black87,
                           fontWeight: FontWeight.w700,
                           fontSize: 21

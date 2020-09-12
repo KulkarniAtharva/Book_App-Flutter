@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage>
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              SizedBox(height: 70,),
+              SizedBox(height: 37,),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 12),
                 child: Row(
@@ -84,7 +84,8 @@ class _MyHomePageState extends State<MyHomePage>
                     scrollDirection: Axis.horizontal,
                     shrinkWrap: true,
                     physics: ClampingScrollPhysics(),
-                    itemBuilder: (context, index){
+                    itemBuilder: (context, index)
+                    {
                       return BooksTile(
                         imgAssetPath: books[index].imgAssetPath,
                         rating: books[index].rating,
@@ -108,7 +109,8 @@ class _MyHomePageState extends State<MyHomePage>
                     scrollDirection: Axis.horizontal,
                     shrinkWrap: true,
                     physics: ClampingScrollPhysics(),
-                    itemBuilder: (context, index){
+                    itemBuilder: (context, index)
+                    {
                       return SingleBookTile(
                         title: singleeBooks[index].title,
                         categorie: singleeBooks[index].categorie,
