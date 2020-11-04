@@ -4,7 +4,5 @@ class SingleBookModel
   String title;
   String categorie;
 
-  SingleBookModel({this.imgAssetPath,this.title,
-    this.categorie});
-
+  SingleBookModel({this.imgAssetPath,this.title,this.categorie});
 }

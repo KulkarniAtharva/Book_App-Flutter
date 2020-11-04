@@ -178,10 +178,8 @@ class BooksTile extends StatelessWidget
 {
   final String imgAssetPath,title,description, categorie;
   final int rating;
-  BooksTile({@required this.rating,@required this.description,
-    @required this.title,@required this.categorie, @required this.imgAssetPath});
-
-
+  BooksTile({@required this.rating,@required this.description, @required this.title,@required this.categorie, @required this.imgAssetPath});
+  
   @override
   Widget build(BuildContext context)
   {
