@@ -144,7 +144,6 @@ class _CategorieTileState extends State<CategorieTile>
     return GestureDetector(
         onTap: ()
         {
-
         },
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -184,7 +183,8 @@ class BooksTile extends StatelessWidget
   Widget build(BuildContext context)
   {
     return GestureDetector(
-      onTap: (){
+      onTap: ()
+      {
         Navigator.push(context, MaterialPageRoute(
             builder: (context) => BookDetails()
         ));
